@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 .bg-img1{
   background-image: url("../assets/backgrounds/h_img.jpeg");
@@ -9,6 +8,42 @@
   /* Center and scale the image nicely */
   background-position: cover;
   background-repeat: no-repeat;
-  background-size: cover;
-   
+  background-size: cover;  
+}
+.text1{
+  text-align: center;
+  color: white;
+  padding-top: 20%;
+  margin-bottom: 5%;
+}
+.text1 h1{
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px black;
+}
+.text1 p{
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  font-family: 'Reggae One';
+}
+.text2{
+ text-align: center;
+ font-size: 20px;
+ font-family: 'Poppins', sans-serif;
+}
+.text3 h2{ 
+text-align: center;
+color: white;
+font-size: 25px;
+ margin-bottom: 2%;
+ padding-top: 10%;
+ font-family: 'Berkshire', cursive;
+
+} 
+.text3 p{
+color: white;
+font-size: 22px;
+text-align: center;
+font-family:  sans-serif;
+ 
+ 
 }
