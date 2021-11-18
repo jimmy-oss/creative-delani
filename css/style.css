@@ -96,16 +96,3 @@ font-family:  sans-serif;
   justify-content: center;
   align-items: center;
 }
-.bg-img3{
-    background-image: url("./assets/backgrounds/c_image.jpeg");
-    min-width: 1000px;
-    min-height: 600px;
-
-  /* Center the contact us image very nicely */
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
- 
- 
