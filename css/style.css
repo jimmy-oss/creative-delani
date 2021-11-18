@@ -96,3 +96,13 @@ font-family:  sans-serif;
   justify-content: center;
   align-items: center;
 }
+.text4 h2{
+  text-align: center;
+}
+.show{
+  font-family: 'Reggae One';
+  font-size: 15px;
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+}
