@@ -84,4 +84,28 @@ font-family:  sans-serif;
   font-family: 'Reggae One';
   text-shadow: 1px 1px black;
 }
+
+.hide {
+  display: none;
+}
+.img{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 250px 300px;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.bg-img3{
+    background-image: url("./assets/backgrounds/c_image.jpeg");
+    min-width: 1000px;
+    min-height: 600px;
+
+  /* Center the contact us image very nicely */
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+ 
  
