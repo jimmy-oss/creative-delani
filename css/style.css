@@ -52,10 +52,36 @@ font-family:  sans-serif;
 }
 .text2 h2{
   font-family: 'Berkshire', cursive;
+  text-shadow: 1px black;
 }
 .text2 p{
   font-family: 'Crimson Text', serif;
   font-size: 25px;
   top: 5px;
+  padding: 2px;
+  text-shadow: 1px black;
+}
+.bg-img2{
+  background-image: url("../assets/backgrounds/s_image.jpeg");
+  min-width: 1000px;
+  min-height: 400px;
+
+  /* Center the service image very nicely */
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text3 h2 {
+   text-align: center;
+   font-family: 'Berkshire', cursive;
+   text-shadow: 1px 1px black;
+}
+.text3 p{
+  text-align: center;
+  padding: 2px;
+  font-size: 24px;
+  font-family: 'Reggae One';
+  text-shadow: 1px 1px black;
 }
  
