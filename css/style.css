@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.bg-img1{
+  background-image: url("../assets/backgrounds/h_img.jpeg");
+  min-width: 500px;
+  min-height: 500px;
+  
+  /* Center and scale the image nicely */
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
