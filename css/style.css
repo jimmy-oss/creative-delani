@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,600;1,700&display=swap');
 .bg-img1{
   background-image: url("../assets/backgrounds/h_img.jpeg");
   min-width: 500px;
@@ -44,6 +45,17 @@ color: white;
 font-size: 22px;
 text-align: center;
 font-family:  sans-serif;
- 
- 
 }
+.text2{
+  text-align: center;
+  font-size: 20px;
+}
+.text2 h2{
+  font-family: 'Berkshire', cursive;
+}
+.text2 p{
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+  top: 5px;
+}
+ 
