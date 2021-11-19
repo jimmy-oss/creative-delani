@@ -116,6 +116,10 @@ font-family:  sans-serif;
   transform: scale(1.2);
   transition: all 0.25s ease;
 }
+.wrapper img{
+  width: 300px;
+  height: 250px;
+}
 /* CONTACT SECTION */
 
 .bg-img3{
