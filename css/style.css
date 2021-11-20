@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,600;1,700&display=swap');
+/* heading section */
 .bg-img1{
   background-image: url("../assets/backgrounds/h_img.jpeg");
   min-width: 500px;
@@ -26,6 +27,8 @@
   text-shadow: 1px 1px black;
   font-family: 'Reggae One';
 }
+/*End of heading section */
+/* About us Section */
 .text2{
  text-align: center;
  font-size: 20px;
@@ -61,6 +64,8 @@ font-family:  sans-serif;
   padding: 2px;
   text-shadow: 1px black;
 }
+/*End of about us section */
+/*Service section*/
 .bg-img2{
   background-image: url("../assets/backgrounds/s_image.jpeg");
   min-width: 1000px;
@@ -84,7 +89,8 @@ font-family:  sans-serif;
   font-family: 'Reggae One';
   text-shadow: 1px 1px black;
 }
-
+/*End of service section*/
+/*What we do section*/
 .hide {
   display: none;
 }
@@ -99,6 +105,8 @@ font-family:  sans-serif;
   text-align: center;
   justify-content: center;
 }
+/*End of what we do section*/
+/*Portfolio section*/
 .container{
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -123,6 +131,7 @@ font-family:  sans-serif;
   background-position: 0, 0;
   background-size: cover;
 }
+/*End of portfolio section*/
 /* CONTACT SECTION */
 
 .bg-img3{
@@ -193,6 +202,7 @@ background-size: cover;
   color:white;
   text-align: right;
 }
+/*Social icons section*/
 .social ul{
   position: absolute;
   left: 50%;
@@ -226,6 +236,8 @@ color: #fff;
 .social ul li a:hover{
  transform: translate(0,10px);
 }
+/*End of social icons*/
+/*footer section*/
 
 .footer{
 text-align: center;
@@ -238,3 +250,4 @@ color:brown;
 font-family: fantasy;
 font-size: 20px;
 }
+/*end of footer section*/
