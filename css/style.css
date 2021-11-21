@@ -261,3 +261,45 @@ font-family: fantasy;
 font-size: 20px;
 }
 /*end of footer section*/
+/*Media queries*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .container-fluid{
+     min-width: 768px;
+     max-width: 1024px;
+  }
+  .bg-img3{
+    min-width: 768px;
+    max-width: 1024px;
+  }
+   .bg-img2{
+     min-width: 768px;
+     max-width: 1024px;
+     text-align: center;
+   }
+   .description{
+     min-width: 768px;
+     max-width: 1024px;
+   }
+   h5{
+     padding-right: 2rem;
+    text-align: center;
+    justify-content: center;
+  }
+   
+   .container{
+    min-width: 768px;
+    max-width: 1024px;
+   }
+   .container-fluid{
+    min-width: 768px;
+    max-width: 1024px;
+   }
+   .img{
+     min-width: 768px;
+     max-width: 1024px;
+   }
+    
+ 
+}
+ 
+/*End of media queries*/
