@@ -262,6 +262,7 @@ font-size: 20px;
 }
 /*end of footer section*/
 /*Media queries*/
+/*Tablet devices*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .container-fluid{
      min-width: 768px;
@@ -347,6 +348,7 @@ font-size: 20px;
        margin-top: 6rem;
      }   
 }
+/* Mobile devices*/
 @media (min-width: 481px) and (max-width: 767px) {
   .container-fluid{
     min-width: 481px;
