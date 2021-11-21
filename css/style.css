@@ -268,8 +268,7 @@ font-size: 20px;
      min-width: 768px;
      max-width: 1024px;
   }
-   
-  .bg-img1 p{
+   .bg-img1 p{
     font-size: 18px;
   }
   .text2 p{
@@ -442,8 +441,7 @@ font-size: 20px;
       margin-top: 3rem;
       padding: 10px 0;
       min-width: 45px;
-       max-width: 40px;
-       
+       max-width: 40px;  
     }
     .footer{
       margin-top: 6rem;
