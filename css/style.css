@@ -261,11 +261,19 @@ font-family: fantasy;
 font-size: 20px;
 }
 /*end of footer section*/
-/*Media queries*/
+ /*Media queries*/
+/*Tablet devices*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .container-fluid{
      min-width: 768px;
      max-width: 1024px;
+  }
+   
+  .bg-img1 p{
+    font-size: 18px;
+  }
+  .text2 p{
+    font-size: 23px;
   }
   .bg-img3{
     min-width: 768px;
@@ -276,6 +284,10 @@ font-size: 20px;
      max-width: 1024px;
      text-align: center;
    }
+   .bg-img2 p{
+    margin-top: 4rem;
+    font-size: 18px;
+  }
    .description{
      min-width: 768px;
      max-width: 1024px;
@@ -292,13 +304,13 @@ font-size: 20px;
   }
   .show{
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
   }
   #img-fluid{
-    margin-left: -4rem;
+    margin-left: -4.2rem;
   }
   #development{
-    margin-left: -6rem;
+    margin-left: -5rem;
   }
    #product{
      margin-left: -5rem;
@@ -318,22 +330,124 @@ font-size: 20px;
    }
    .form-contact input{
     width: 38%;
-    font-size: 18px;
+    font-size: 15px;
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;  
    }
-     .text-area{
-        resize: none;
-        min-width: 500px;
-        max-width: 500px;
+ .text-area{
+  font-weight: 100;
+   resize: none;
+  min-width: 500px;
+   max-width: 500px;
      }
-     .social{
-       margin-top: 2rem;
+   .social{
+    margin-top: 2rem;
      }
      .footer{
        margin-top: 6rem;
      }   
+}
+/* Mobile devices*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .container-fluid{
+    min-width: 481px;
+    max-width: 767px;
+ }
+ .bg-img1 p{
+  font-size: 17px;
+  padding: 2px;
+}
+ .text2 p{
+   font-size: 20px;
+ }
+ .bg-img3{
+   min-width: 481px;
+   max-width: 767px; 
+ }
+  .bg-img2{
+    min-width: 481px;
+    max-width: 767px;
+    text-align: center;
+  }
+  .bg-img2 p{
+    margin-top: 4rem;
+    font-size: 18px;
+  }
+  .description{
+    min-width: 481px;
+    max-width: 767px;
+  }
+   
+  .text4 h2{
+    text-align: center;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+  h5{
+    padding-right: 2rem;
+   text-align: center;
+   justify-content: center;
+ }
+ .show{
+   text-align: center;
+   font-size: 15px;
+  justify-content: center;
+  display: flex;
+ 
+ }
+ #img-fluid{
+   margin-left: 2rem;
+ }
+ #development{
+   margin-right: 8rem;
+   margin-left: 2rem;
+   margin-top: 5rem;
+   
+ }
+  #product{
+    margin-right: 5rem;
+    margin-left: 3rem;
+   margin-top: 6rem;
+  }
+   
+  .wrapper img{
+   width: 180px;
+   height: 250px;
+   overflow: hidden;   
+      
+  }
+  .container-fluid{
+   min-width: 481px;
+   max-width: 767px;
+  }
+  .img{
+    min-width: 481px;
+    max-width: 767px;
+  }
+  .form-contact input{
+   width: 38%;
+   font-size: 15px;
+   background-position: cover;
+   background-repeat: no-repeat;
+   background-size: cover;  
+  }
+    .text-area{
+      font-size: 12px;
+       resize: none;
+       min-width: 250px;
+       max-width: 250px;
+    }
+    .social ul li a{
+      margin-top: 3rem;
+      padding: 10px 0;
+      min-width: 45px;
+       max-width: 40px;
+       
+    }
+    .footer{
+      margin-top: 6rem;
+    }   
 }
  
 /*End of media queries*/
