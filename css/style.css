@@ -131,6 +131,14 @@ font-family:  sans-serif;
   background-position: 0, 0;
   background-size: cover;
 }
+.wrapper h5{
+  position: absolute;
+  color: #fff;
+  top: 33%;
+  width: 100%;
+  text-align: center;
+}
+ 
 /*End of portfolio section*/
 /* CONTACT SECTION */
 
@@ -175,7 +183,9 @@ background-size: cover;
   transform: translate(-50%);
   padding-bottom: 30px;
 }
-
+.text-area{
+  resize: none;
+}
 ::placeholder {
   font-size: 15px;
   padding-left: 5px;
