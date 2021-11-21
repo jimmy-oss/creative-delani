@@ -19,7 +19,6 @@ These are:
 
 - `html`
 - `css`
-- `Javascript`
 - `Jquery`
 - `Bootstrap`
 - `Mailchimp-Api`
