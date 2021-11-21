@@ -285,7 +285,19 @@ font-size: 20px;
     text-align: center;
     justify-content: center;
   }
-   
+  .show{
+    text-align: center;
+    font-size: 17px;
+  }
+  #img-fluid{
+    margin-left: -4rem;
+  }
+  #development{
+    margin-left: -5rem;
+  }
+   #product{
+     margin-left: -5rem;
+   }
    .container{
     min-width: 768px;
     max-width: 1024px;
