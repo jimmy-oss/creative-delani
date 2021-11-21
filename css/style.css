@@ -269,7 +269,7 @@ font-size: 20px;
   }
   .bg-img3{
     min-width: 768px;
-    max-width: 1024px;
+    max-width: 1024px; 
   }
    .bg-img2{
      min-width: 768px;
@@ -279,6 +279,11 @@ font-size: 20px;
    .description{
      min-width: 768px;
      max-width: 1024px;
+   }
+   .text4 h2{
+     text-align: center;
+     justify-content: center;
+     margin-right: 2rem;
    }
    h5{
      padding-right: 2rem;
@@ -293,14 +298,15 @@ font-size: 20px;
     margin-left: -4rem;
   }
   #development{
-    margin-left: -5rem;
+    margin-left: -6rem;
   }
    #product{
      margin-left: -5rem;
    }
-   .container{
-    min-width: 768px;
-    max-width: 1024px;
+   .wrapper img{
+    width: 200px;
+    height: 258px;
+    overflow: hidden;     
    }
    .container-fluid{
     min-width: 768px;
@@ -310,8 +316,21 @@ font-size: 20px;
      min-width: 768px;
      max-width: 1024px;
    }
-    
- 
+   .form-contact input{
+    width: 38%;
+    font-size: 18px;
+   }
+     .text-area{
+        resize: none;
+        min-width: 500px;
+        max-width: 500px;
+     }
+     .social{
+       margin-top: 2rem;
+     }
+     .footer{
+       margin-top: 6rem;
+     }   
 }
  
 /*End of media queries*/
