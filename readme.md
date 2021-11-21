@@ -23,8 +23,7 @@ These are:
 - `Jquery`
 - `Bootstrap`
 - `Mailchimp-Api`
-- `deployed via Netlify`
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/0f00e06c-2439-4522-ab27-49c6e0fb7f9e/deploy-status)](https://app.netlify.com/sites/naughty-roentgen-44adc7/deploys)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/f62bb2f5-c7d1-4b5b-96a5-0ee98550568f/deploy-status)](https://app.netlify.com/sites/delani-studio-website/deploys)
 
 # BEHAVIOUR DRIVEN DEVELOPMENT &#10024;
 
