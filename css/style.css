@@ -319,6 +319,9 @@ font-size: 20px;
    .form-contact input{
     width: 38%;
     font-size: 18px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;  
    }
      .text-area{
         resize: none;
